@@ -1,16 +1,12 @@
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
-import {Provider} from 'react-redux'
-import configureStore from './configureStore'
-import Input from './input'
-const store = configureStore()
 
+import Input from './input';
 export default class App extends React.Component {
   render() {
     return (<View style={styles.container}>
-      <Text>Find user by name</Text>
+      <Text>aaaaaaaaaaaaaaaa</Text>
       <Input/>
-
     </View>);
   }
 }
@@ -18,9 +14,9 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    marginTop:'20%',
     backgroundColor: '#fff',
     alignItems: 'center',
-    marginTop:'20%',
     // justifyContent: 'center'
   }
 });
